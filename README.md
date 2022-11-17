@@ -8,6 +8,7 @@ Change it as you wish!
 
 Default user and pass =
 User: dev
-Pass: funni developer yes yes
+
+Pass: $**DEV@proxy.js!!11
 
 also change the default title and favicon if you wish to mask it as something else :)
