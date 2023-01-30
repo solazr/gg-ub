@@ -1,22 +1,19 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang=”en”>
 <head> 
 <title>Clever | Portal</title> 
 <link rel="shortcut icon" href="favicon.ico" />
 <meta charset="UTF-8" />
 </head> 
-<script>
-var user1="user"; var username=prompt('Please Log in. Username:',' '); if (username==user1){ var pass1="password"; password=prompt('Password:',' '); if (password==pass1){ alert("Welcome…") } else { window.location="wrongpassword.html"; } } else { window.location="wrongpassword.html"; }
-</script>
-<body style="background-color:cyan;"> 
+<body style="background-color:rgb(155, 155, 155);">
 Welcome to “proxy.js”!
 <input type='text' placeholder='Put the mask title here' /> 
 </body>
 <script> var inp = document.querySelector( 'input' ); inp.addEventListener( 'keyup', evt => document.title = evt.target.value ); </script>
-<!--Line Break because yes-->
+<!--Line break because yes-->
 <script src="proxy.js"></script>
 <body>
-<button type="button">A useless button</button></a>
+<button type="button" title=”what”>A useless button</button></a>
 </body>
 <br>
 <input type="file" id="input"/> 
@@ -24,5 +21,7 @@ Welcome to “proxy.js”!
 <script>
 input.onchange = function(){ var sound = document.getElementById('sound'); var reader = new FileReader(); reader.onload = function(e) { sound.src = this.result; sound.controls = true; sound.play(); }; reader.readAsDataURL(this.files[0]); }
 </script>
+<p>Want some ambience? :]</p>
+<iframe src="ambience.mp3" controls allow="autoplay" id="BGmusic"></iframe>
 <br>
 </html>
