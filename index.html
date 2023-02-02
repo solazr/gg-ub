@@ -22,6 +22,6 @@ Welcome to “proxy.js”!
 input.onchange = function(){ var sound = document.getElementById('sound'); var reader = new FileReader(); reader.onload = function(e) { sound.src = this.result; sound.controls = true; sound.play(); }; reader.readAsDataURL(this.files[0]); }
 </script>
 <p>Want some ambience? :]</p>
-<iframe src="ambience.mp3" controls allow="autoplay" id="BGmusic"></iframe>
+<iframe src="ambience.mp3" controls id="BGmusic"></iframe>
 <br>
 </html>
