@@ -19,7 +19,7 @@ Button1.addEventListener("click",(()=>{0!=urlBox.value.length&&urlBox.value.star
 Button2.addEventListener("click",(()=>{iframe.src="https://www.proxysite.com",urlQueue.push("https://www.proxysite.com")})),urlQueue.push("http://waylon.carlsprojects.com"),
 Button3.addEventListener("click",(()=>{iframe.src="https://www.snokido.com",urlQueue.push("https://www.snokido.com")})),
 Button4.addEventListener("click",(()=>{iframe.src="https://kbhgames.com",urlQueue.push("https://kbhgames.com")})),
-Button5.addEventListener("click",(()=>{document.location.href="https://clever.com"})),
+Button5.addEventListener("click",(()=>{window.location.href = "https://clever.com"})),
 backButton.addEventListener("click",(()=>{urlQueue.length>1&&(urlQueue.pop(),iframe.src=urlQueue.at(-1))})),
 document.body.appendChild(backButton),
 document.body.appendChild(urlBox),
