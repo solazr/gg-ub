@@ -1,23 +1,37 @@
 ﻿<!DOCTYPE html>
 <html lang=”en”>
-<head> 
-<title>Clever | Portal</title> 
-<link rel="shortcut icon" href="favicon.ico" />
-<meta charset="UTF-8" />
-</head> 
-<script>
-history.pushState(“https://clever.com”, "Single sign-on for education | Clever", "/");
-</script>
-<body style="background-color:rgb(155, 200, 155);">
+<head>
+    <title>Clever | Portal</title>
+    <link rel="shortcut icon" href="assets/css/favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/iframe.css">
+</head>
+<body style="background: rgba(255,255,255,0);">
+    <div id="tsparticles" style="background: #00FFFF;text-align: center;"></div>
+    <div style="text-align: center;">
+    <h1 style="margin-top: 7px;font-family: Quicksand, sans-serif;color: rgb(255,255,255);">~proxy.js~</h1>
+</div>
+    <div style="background: rgba(0,218,218,0); margin-top: 25px;">
+    </div>
+     <script> history.pushState("https://clever.com", "Single sign-on for education | Clever", "/");
+     </script>
 <input type='text' placeholder='Put title here' /> 
+    <script> var inp = document.querySelector( 'input' ); inp.addEventListener( 'keyup', evt => document.title = evt.target.value ); </script>
+    <script src="assets/js/proxy.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/tsparticles@1.34.0/tsparticles.min.js"></script>
+    <script src="assets/js/loader.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
-<script> var inp = document.querySelector( 'input' ); inp.addEventListener( 'keyup', evt => document.title = evt.target.value ); </script>
-<script src="proxy.js"></script>
-<br>
+<h4>Put some music here!</h4>
 <input type="file" id="input"/> 
 <audio id="sound"></audio>
-<script>
-input.onchange = function(){ var sound = document.getElementById('sound'); var reader = new FileReader(); reader.onload = function(e) { sound.src = this.result; sound.controls = true; sound.play(); }; reader.readAsDataURL(this.files[0]); }
-</script>
-<br>
+ <script>
+   input.onchange = function(){ var sound = document.getElementById('sound'); var reader = new FileReader(); reader.onload = function(e) { sound.src = this.result; sound.controls = true; sound.play(); }; reader.readAsDataURL(this.files[0]); }
+ </script>
+ <h1 style="margin-bottom: 150px;font-family: Quicksand, sans-serif;color: rgb(255,255,255);"></h1>
 </html>
